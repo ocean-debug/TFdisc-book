@@ -1,10 +1,13 @@
+.. _Installation:
+
+========================
 Installation
 ========================
 
 Please follow the guide below to install TFdisc and its dependent software.
 
 Installation guide
-========================
+===================
 
 TFdisc has been implemented in Python3 and can be installed using git clone to download this git repository file:
 
