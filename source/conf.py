@@ -22,6 +22,7 @@ extensions = ['recommonmark',
     'sphinx_markdown_tables']
 
 templates_path = ['_templates']
+source_suffix = ['.rst', '.md']
 exclude_patterns = []
 
 language = 'EN'
