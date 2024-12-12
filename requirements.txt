@@ -61,7 +61,6 @@ sphinxcontrib-jsmath==1.0.1
 sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
 starlette==0.41.3
-TFdisc==1.0.0
 threadpoolctl==3.5.0
 tomli==2.2.1
 twine==5.1.1
