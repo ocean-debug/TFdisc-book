@@ -1,4 +1,4 @@
-# contact
+# Contact
 
 For questions and help requests, you can reach out to WHY by email.  
 
