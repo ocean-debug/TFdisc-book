@@ -44,4 +44,7 @@ def setup(app):
     }, True)
     app.add_transform(AutoStructify)
 
-
+pygments_style = 'sphinx'  # 默认代码高亮主题
+highlight_options = {
+    'linenos': True,  # 启用行号
+}
