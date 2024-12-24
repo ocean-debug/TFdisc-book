@@ -5,8 +5,7 @@ Tutorial
 
 There are a number of tutorials available to demonstrate how to use TFdisc functions with demo datasets. 
 
-This tutorial consists mainly of two examples, one using a single-cell dataset of lung epithelial cells to demonstrate TFdisc's performance on differential gene exploration,
- and one using a single-cell dataset of mouse gastrulation erythropoiesis to explore its performance in unraveling lineage alterations.
+This tutorial consists mainly of two examples, one using a single-cell dataset of lung epithelial cells to demonstrate TFdisc's performance on differential gene exploration,and one using a single-cell dataset of mouse gastrulation erythropoiesis to explore its performance in unraveling lineage alterations.
  
 .. note::
    The demo datasets are available in both Seurat and Scanpy formats.
@@ -43,7 +42,7 @@ Examples
 ----------
 
 
-TFdisc¡¯s performance in predicting transcriptomic changes
+Performance of TFdisc in predicting transcriptomic changes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
@@ -55,7 +54,7 @@ TFdisc¡¯s performance in predicting transcriptomic changes
    lung/lung_analysis
    
    
-TFdisc¡¯s performance in unraveling lineage alterations
+Performance of TFdisc in unraveling lineage alterations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
