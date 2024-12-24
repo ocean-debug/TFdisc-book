@@ -1,5 +1,6 @@
 # TFdisc
 
+
 ```python
 import pandas as pd
 import numpy as np
@@ -91,12 +92,8 @@ pre_data = tc.gen_model.combine_predict(ave_data,TF_list,HVG_list,grn_result,"./
 
 ```
 
+## Other
 
-```python
-
-```
-
-## Others
 
 ```python
 tc.train_model.TF_model(ave_data,list(set(TF_list) | set(HVG_list)),
@@ -126,7 +123,7 @@ grn_result = TFdisc.grn.TF_grn(wt_data,TF_list)
 
 
 ```python
-imp=imputation.imp_SAVER(wt_data1,20)`
+imp=imputation.imp_SAVER(wt_data1,20)
 ```
 
     R[write to console]: Loading required package: SAVER
