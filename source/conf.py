@@ -26,7 +26,12 @@ release = '1.1.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = ['recommonmark',
-    'sphinx_markdown_tables']
+    'sphinx_markdown_tables',
+    'nbsphinx']
+
+nbsphinx_allow_errors = True  # 如果 Notebook 中有错误不会停止构建
+nbsphinx_execute = 'never'    # 或 'auto' 如果你希望构建时执行 Notebook
+
 
 templates_path = ['_templates']
 source_suffix = {
@@ -44,7 +49,3 @@ def setup(app):
     }, True)
     app.add_transform(AutoStructify)
 
-pygments_style = 'sphinx'  # 默认代码高亮主题
-highlight_options = {
-    'linenos': True,  # 启用行号
-}
